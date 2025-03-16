@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Attribute Values</title>
+</head>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+    <p>JavaScript can change HTML Attribute Values.</p>
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    <button onclick="document.getElementById('bulb').src='images/pic_bulbon.gif'">Turn On</button>
+    <img src="images/pic_bulboff.gif" id="bulb" alt="Switched Off Bulb" style="width: 200;">
+    <button onclick="document.getElementById('bulb').src='images/pic_bulboff.gif'">Turn Off</button>
+</body>
+</html>
